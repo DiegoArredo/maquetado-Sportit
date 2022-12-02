@@ -1,0 +1,429 @@
+/* Estilos GENERALES */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* border: 1px dotted red; */
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+h1{
+    display: none;
+}
+h3{
+    color: white;
+}
+p{
+    font-size: 16px;
+}
+
+button{
+    border: none;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.flex{
+    display: flex;
+}
+.flex-col-sm{
+    display: flex;
+    flex-direction: column;
+}
+.flex-row-sm{
+    display: flex;
+    flex-direction: row;
+}
+.sportit-logo{
+    height: 30px;
+}
+#hamburguer-logo{
+    width: 50px;
+}
+.bg-primary{
+    background-color: #8B48BF;
+}
+.bg-secondary{
+    background-color: #3CDDF3;
+}
+.pill-l{
+    width: 135px;
+    padding: 12px 40px;
+    border-radius: 50px;
+    color: white;
+}
+.pill-s{
+    padding: 10px 25px;
+    border-radius: 50px;
+    color: white;
+}
+.d-hide-sm{
+    display: none;
+}
+
+/* HEADER*/
+header{
+    align-items: center;
+    justify-content: space-between;
+    padding: 10vw;
+}
+ /* MAIN */
+
+    /* Estilos PORTADA */
+    .portada{
+        margin: 28px 40px;
+    }
+    .portada-img{
+        align-self: center;
+        margin-bottom: 100px;
+        width: 85vw;
+    }
+    .portada div h2{
+        color: #232C50;
+        font-weight: 600;
+        font-size: 50px;
+        letter-spacing: -0.035em;
+        text-align: right;
+    }
+    .portada div p{
+        font-weight: 500;
+        line-height: 26px;
+        padding: 28px 0;
+        text-align: right;
+    }
+    .portada div button{
+        align-self: flex-end;
+    }
+
+    .portada div button:hover{
+        background-color: rgba(139, 72, 191, 0.7);
+        cursor: pointer;
+    }
+
+    /* Estilos SECCION 1 - "infoPro" */
+
+    .sec1-top{
+        margin-bottom: 65px;
+        padding: 40px 20px;
+    }
+    .sec1-top h3{
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 41px;
+    }
+    .sec1-top p{
+        line-height: 24px;
+        margin-top: 50px;
+        color: white;
+    }
+    .sec1-card{
+        margin-left: 30px;
+    }
+    .sec1-card span{
+        font-weight: 700;
+        position: relative;
+        top: 30px;
+    }
+    .sec1-card h4{
+        background-color: rgba(139, 72, 191, 0.3);
+        color: #323851;
+        margin-left: 20px;
+        padding:10px 0 10px 65px;
+    }
+    .sec1-card p{
+        color: #B3B2B7;
+        margin: 10px 0;
+        line-height: 26px;
+        padding: 20px;
+    }
+
+    /* Estilos SECCION 2 - Best of the month */
+    .sec2 {
+        align-items: center;
+        margin: 50px 0;
+    }
+    .sec2 h2{
+        color: #242E53;
+        font-size: 38px;
+        font-weight: 600;
+        margin-bottom: 50px;
+    }
+    .sec2 article.card{
+        align-items: center;
+        background-color: #FAFAFA;
+        margin: 45px 20px;
+        padding: 0 25px 30px ;
+    }
+    .sec2 article.card img{
+        bottom: 35px;
+        position: relative;
+        width: 70px;
+    }
+    .sec2 article.card h5{
+        color:#3F4868;
+        font-weight: 700;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .sec2 article.card p{
+        color: #B9B9C1;
+        line-height: 25px;
+        text-align: center;
+    }
+    .sec2 button:hover{
+        background-color: rgba(139, 72, 191, 0.7);
+        cursor: pointer;
+    }
+
+    /* Estilos BOTTOM SECTION */
+    .bottom-section{
+        align-items: center;
+        padding: 40px 80px;
+    }
+
+    .bottom-section h3{
+        font-size: 40px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .bottom-section button{
+        background-color:#232C50 ;
+        margin-top: 50px;
+    }
+
+/* FOOTER */
+footer{
+    align-items: center;
+    background-color: #1E1E26;
+    justify-content: center;
+}
+
+    /* Estilos del formulario */
+    footer form{
+        margin: 50px 50px 25px 50px;
+    }
+    footer form input{
+        border: none;
+        border-radius: 50px;
+        padding: 12px;
+        width: 300px;
+    }
+    .footer form button:hover{
+        background-color: rgba(139, 72, 191, 0.7);
+        cursor: pointer;
+    }
+
+    /* Estilos de los redirects (links y RRSS) */
+    footer .f-links{
+        justify-content: space-around;
+        margin: 25px 50px;
+        width: 380px;
+    }
+    footer .f-links li{
+        margin-bottom: 12px;
+    }
+    footer .f-links li a{ 
+        color: white ;
+    }
+    footer .f-links li a:hover{ 
+        color: #B9B9C1 ;
+    }
+
+    /* Logo-rrss */
+    footer .f-rrss-logo{
+        align-items: center;       
+    }
+    footer .f-rrss-logo ul{ 
+        justify-content: space-between;
+        margin: 25px 0;
+        width: 380px;
+    }
+    footer .footer-img{
+        margin: 25px 0;
+    }
+
+    /* Derechos de autor -Final de pagina */
+    footer .footer-p{
+        color: #8C8C94;
+        font-size: 12px;
+        margin: 25px 50px;
+        text-align: center;
+        width: 380px;
+    }
+
+/* MEDIA QUERIES */
+
+@media (min-width:500px){
+
+    /* Estilos GENERALES */
+    .bg-secondary{
+        background-color: #8B48BF;
+    }
+    .d-hide-sm{
+        display: inherit;
+    }
+    .d-hide-xl{
+        display: none;
+    }
+    .flex-row-l{
+        display: flex;
+        flex-direction: row;
+    }
+    .flex-col-l{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* HEADER */
+    header{
+        justify-content: space-between;
+        padding: 4vw 12vw;
+    }
+    header button:hover{
+        background-color: rgba(139, 72, 191, 0.7);
+        cursor: pointer;
+    }
+    header nav ul{
+        justify-content: space-around;
+        width: 35vw;   
+    }
+    header nav ul li a{
+        color: #242E52;
+        font-size: 12px;
+    }
+    header nav ul li a:hover{
+        color: rgba(36, 46, 82, 0.6);
+    }
+
+    /* MAIN */
+        /* PORTADA */
+        .portada{
+            justify-content: space-between;
+            margin: 8vw 0;
+            padding: 0 12vw;
+        }
+        .portada img{
+            margin: 0;
+            width: 35vw;
+        }
+        .portada div{
+            justify-content: space-around;
+            width:  30vw;
+        }
+
+        /* SECCION 1 */
+        .sec1{
+            background-color: #FAFAFA;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding-bottom: 5vh;
+        }
+        .sec1-top{
+            justify-content: space-between;
+            margin-bottom: 20px;
+            padding: 4vw 14vw;
+            width: 100vw;
+        }
+        .sec1-top h3{
+            width: 30vw;
+        }
+        .sec1-top p{
+            margin: 0;
+            width: 30vw;
+        }
+        .sec1-card{
+            margin: 2vh 0;
+            width: 40vw;
+        }
+        .sec1-card h4{
+            background-color: inherit;
+        }
+        .sec1-card p{
+            margin: 0;
+            padding: 1vh 4vw 1vh 6vw;
+        }
+
+        /* SECCION 2 */
+        .sec2{
+            justify-content: center;  
+            flex-wrap: wrap;
+        }
+        .sec2 h2{
+            text-align: center;
+            width: 100vw;
+        }
+        .sec2 article.card{
+            margin: 45px 0;
+            width: 30vw;
+        }
+        .sec2 button{
+            margin-left: 20vw;
+            margin-right: 20vw;
+        }
+
+        /* SECCION 3 BOTTOM */
+        .bottom-section{
+            justify-content: space-between;
+            padding: 4vw 15vw 4vw 11vw;
+        }
+        .bottom-section h3{
+            text-align: left;
+            width: 30vw;
+        }
+        .bottom-section button{
+            background-color: white;
+            color: #8B48BF;
+            margin: 0;
+        }
+        .bottom-section button:hover{
+            background-color: #B9B9C1;
+            cursor: pointer;
+        }
+
+        /* FOOTER */
+        footer {
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 4vw 8vw 2vw;
+        }
+        footer form{
+            height: 9vh;
+            margin: 0;           
+        }
+        footer form input{
+            width: auto;
+        }
+        footer form button:hover{
+            background-color: rgba(139, 72, 191, 0.7);
+            cursor: pointer;
+        }
+        footer .f-links{
+            justify-content: space-between;
+            margin: 0;
+            order: -1;
+        }
+        footer .f-rrss-logo{
+            align-items: flex-start;
+            height: 9vw;
+            justify-content: space-between;
+            order: -2;
+            width: 13vw;    
+        }
+        footer .f-rrss-logo ul{
+            justify-content: space-between;
+            margin: 0;
+            order: 1;
+            width: 13vw;
+        }
+        footer .f-rrss-logo .footer-img{
+            margin: 0;
+        }
+        footer .footer-p{
+            margin: 0;
+            text-align: right;
+            width: 100vw;
+        }   
+    }   
