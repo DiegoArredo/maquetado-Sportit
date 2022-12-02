@@ -1,4 +1,4 @@
-# Maqueteado página web "Sportit"
+# Maquetado página web "Sportit"
 ## 1. Resumen del proyecto
 Este proyecto busca hacer una página web lo más parecido al diseño entregado. 
 Se usa:
